@@ -89,3 +89,36 @@
     width: 3rem;
     height: 3rem;
 }
+
+
+@media screen and (max-width: 768px){
+    .reasons{
+        flex-direction: column;
+    }
+
+    .left-r{
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+
+    .left-r > :nth-child(1){
+        width: 15rem;
+        height: 18rem;
+    }
+
+    .left-r > :nth-child(2){
+        width: 15rem;
+    }
+
+    .left-r > :nth-child(3){
+        width: 7rem;
+    }
+
+    .left-r > :nth-child(4){
+        width: 7rem;
+    }
+    
+    
+    
+    
+}
